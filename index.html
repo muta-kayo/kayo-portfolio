@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayo Portfolio</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="./CSS/common.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <!-- <div class="loader--bg">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <p>Now Loading...</p>
+        </div>
+    </div> -->
+    <header id="header">
+        <div class="header">
+            <h1 class="heading__h1">
+                <a href="./index.html">
+                    Kayo Portfolio
+                </a>
+            </h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products">
+                            Products
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="hamburger__btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="js-nav">
+                <ul class="js-nav__list">
+                    <li class="js-nav__item">
+                        <a href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li class="js-nav__item">
+                        <a href="#skills">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="js-nav__item">
+                        <a href="#products">
+                            Products
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="kv">
+        <div class="kv__title">
+            MUTA KAYO
+        </div>
+        <div class="kv__title small">
+            PORTFOLIO
+        </div>
+        <img src="./img/kv_img.jpg" alt="">
+    </section>
+
+    <main>
+        <section id="about" class="wrapper">
+            <div class="about__content">
+                <img src="./img/about_img.jpg" alt="">
+                <div class="about__inner">
+                    <div class="section__title">
+                        <h2 class="heading__h2">
+                            About
+                            <span class="heading__h2--ja">
+                                私について
+                            </span>
+                        </h2>
+                    </div>
+                    <p class="content__text">
+                        フロントエンドエンジニアを目指しています。
+                        10月からスクールに通いHTMLからJS、Jqueryまでを学びました。
+                        その後はAWSにてドメインを取得しサーバーアップをしました。
+                        Gitの基礎知識を勉強し今はSASSでのサイト制作をしています。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="wrapper">
+            <div class="section__title">
+                <h2 class="heading__h2">
+                    Skills
+                    <span class="heading__h2--ja">
+                        できること
+                    </span>
+                </h2>
+            </div>
+            <div class="skills__content">
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <div class="skills__img">
+                            <img src="./img/icons8-html5-100.png" alt="HTML5">
+                            <img src="./img/icons8-css3-100.png" alt="CSS3">
+                        </div>
+                        <div class="skills__lead">
+                            <h3 class="heading__h3">
+                                HTML5/CSS3
+                            </h3>
+                            <p class="content__text">
+                                Webサイトを一から構築するための、HTML・CSS、レスポンシブのコーディングができます。
+                                使用しているエディタはVisual Studio Codeです。
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <div class="skills__img">
+                            <img src="./img/icons8-javascript-100.png" alt="javascript">
+                            <img src="./img/icons8-jquery-100.png" alt="jquery">
+                        </div>
+                        <div class="skills__lead">
+                            <h3 class="heading__h3">
+                                javascript/jquery
+                            </h3>
+                            <p class="content__text">
+                                webサイトに簡単な動きをつけるための、jQueryを使ったコーディングが可能です。
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <div class="skills__img">
+                            <img src="./img/icons8-adobe-photoshop-100.png" alt="photoshop">
+                        </div>
+                        <div class="skills__lead">
+                            <h3 class="heading__h3">
+                                photoshop
+                            </h3>
+                            <p class="content__text">
+                                写真の補正や加工、切り抜きなどの作業が可能です。
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <div class="skills__img">
+                            <img src="./img/icons8-github-100.png" alt="">
+                        </div>
+                        <div class="skills__lead">
+                            <h3 class="heading__h3">
+                                GitHub
+                            </h3>
+                            <p class="content__text">
+                                基本的な操作はできます。まだまだ勉強中です。
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section id="products" class="wrapper">
+            <div class="section__title">
+                <h2 class="heading__h2">
+                    Products
+                    <span class="heading__h2--ja">
+                        制作したもの
+                    </span>
+                </h2>
+            </div>
+            <ul class="products__list">
+                <li class="products__item">
+                    <a href="./index.html">
+                        <img src="./img/kayo portfolio_img.png" alt="KAYOPORTFOLIOサイト">
+                        <h3 class="heading__h3">
+                            ポートフォリオサイト
+                        </h3>
+                    </a>
+                </li>
+                <li class="products__item">
+                    <a href="./pon_design/index.html">
+                        <img src="./img/pondesign_img.png" alt="PONDESIGNサイト">
+                        <h3 class="heading__h3">
+                            架空WEBサービス会社サイト
+                        </h3>
+                    </a>
+                </li>
+                <li class="products__item">
+                    <a href="./engbody/index.html">
+                        <img src="./img/engbody_img.png" alt="ENGBODYサイト">
+                        <h3 class="heading__h3">
+                            架空ジムサイト
+                        </h3>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="copyright">
+            &copy; Kayo Portfolio
+        </div>
+        <div class="pagetop__btn">
+            <a href="#"></a>
+        </div>
+    </footer>
+
+    <script src="./JS/jquery-3.7.1.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
