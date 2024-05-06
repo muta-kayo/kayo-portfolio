@@ -17,7 +17,7 @@
 }
 
 .header.color--change {
-    background-color: #66b1f7;
+    background-color: #6BA2FF;
 }
 
 .heading__h1 {
@@ -111,7 +111,7 @@
         width: 100vw;
         height: 100vh;
         display: flex;
-        background-color: #fcb928;
+        background: radial-gradient(circle, rgba(107,162,255,1) 0%, rgba(248,188,208,1) 100%);
         visibility: hidden;
         opacity: 0;
         clip-path: circle(0%);
@@ -170,7 +170,7 @@
 ----------------------------------------*/
 #footer {
     position: relative;
-    background-color: antiquewhite;
+    background-color: #F8BCD0;
     padding: 40px 0;
     text-align: center;
 }
