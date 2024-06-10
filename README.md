@@ -87,15 +87,15 @@
 　2つ目の8ページの架空WEBサービス会社サイトと違うプラグインを使用したいと思いslickを
 　実装しました。こちらはループ再生にしスタジオの雰囲気などが感じられるようにしました。
 
-<img width="450" alt="" src="./readme_img/slick.png>
+<img width="450" alt="" src="./readme_img/slick.png">
 
 2.テキストがスライドで表示
 
-<img width="450" alt="" src="./readme_img/text.png>
+<img width="450" alt="" src="./readme_img/text.png">
 
 3.タブ切り替え
 
-<img width="450" alt="" src="./readme_img/tab.png>
+<img width="450" alt="" src="./readme_img/tab.png">
 
 4.アコーディオンメニュー
 
